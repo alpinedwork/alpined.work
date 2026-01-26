@@ -2,14 +2,6 @@ body{
   background-color: black;
 }
 
-h1{
-  color: white;
-}
-
-h3{
-  color: white;
-}
-
 a{
   color: burlywood;
 }
@@ -18,10 +10,12 @@ a{
   display: flex;
   align-items: center;
   gap: 10px;
+  color: white;
 }
 
 .maintxt{
   margin-left: 10px;
+  color: white;
 }
 
 .twl{
@@ -31,3 +25,4 @@ a{
 .tiamw{
   font-family: 'Courier New', Courier, monospace;
 }
+
