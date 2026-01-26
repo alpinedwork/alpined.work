@@ -1,28 +1,48 @@
-body{
+body {
   background-color: black;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-a{
+a {
   color: burlywood;
 }
 
-.header{
+.header {
   display: flex;
   align-items: center;
   gap: 10px;
   color: white;
 }
 
-.maintxt{
+.maintxt {
   margin-left: 10px;
   color: white;
 }
 
-.twl{
+.twl {
   text-decoration: none;
 }
 
-.tiamw{
+.tiamw {
   font-family: 'Courier New', Courier, monospace;
 }
 
+footer {
+  color: darkgray;
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  width: 100%;
+  margin: 20px 0;
+  margin-top: 0px;
+}
